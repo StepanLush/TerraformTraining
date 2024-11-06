@@ -1,0 +1,10 @@
+attach_storage/terraform.tfvars
+workspaces/terraform.tfvars
+
+
+attach_storage/.terraform/
+workspaces/.terraform/
+
+
+attach_storage/.terraform.lock.hcl
+workspaces/.terraform.lock.hcl
