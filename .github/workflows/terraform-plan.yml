@@ -46,8 +46,6 @@ jobs:
     - name: Terraform init
       run: terraform init
       working-directory: ./AKS
-      env:
-        subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
 
     - name: Terraform Plan
       run: terraform plan
