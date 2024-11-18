@@ -1,16 +1,18 @@
 attach_storage/terraform.tfvars
 workspaces/terraform.tfvars
 import/terraform.tfvars
-
+AKS/terraform.tfvars
 
 attach_storage/.terraform/
 workspaces/.terraform/
 import/.terraform/
+AKS/.terraform/
+
 
 
 attach_storage/.terraform.lock.hcl
 workspaces/.terraform.lock.hcl
 import/.terraform.lock.hcl
-
+AKS/.terraform.lock.hcl
 
 import/commands
